@@ -1,0 +1,42 @@
+* {
+    background-image: url("./Cheese-Background-Free-Picture.jpg")
+}
+h1 {
+text-align: center;
+margin-top: 300px;
+font-size: 100px;
+}
+
+.topnav {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Style the search box inside the navigation bar*/
+.topnav input[type=text] {
+    padding: 6px;
+    border-width: 1px;
+    border-color: black;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+#button {
+    width: 130px;
+    border: 1px solid #333333;
+    font-size: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-image: url(./Cheese-Background-Free-Picture.jpg);
+    display: inline-block;
+}
+
+#button:hover span{
+    display: none;
+}
+#button:hover:before {
+    content: "Gouda!";
+}
